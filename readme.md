@@ -44,10 +44,10 @@ Al ejecutar el programa, se mostrará un menú interactivo en la terminal:
 4) Salir
 ***********************
 Opciones del menú
-Convertir MXN a USD: Convierte pesos mexicanos a dólares estadounidenses.
-Convertir MXN a EUR: Convierte pesos mexicanos a euros.
-Otras conversiones: Permite ingresar cualquier código de moneda válido y convertir entre ellas.
-Salir: Finaliza el programa.
+- Convertir MXN a USD: Convierte pesos mexicanos a dólares estadounidenses.
+- Convertir MXN a EUR: Convierte pesos mexicanos a euros.
+- Otras conversiones: Permite ingresar cualquier código de moneda válido y convertir entre ellas.
+- Salir: Finaliza el programa.
 Para cada opción, el programa te pedirá ingresar la cantidad de dinero que deseas convertir, y te devolverá el resultado con la tasa de cambio actualizada.
 
 API utilizada
