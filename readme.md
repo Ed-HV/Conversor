@@ -16,23 +16,23 @@ Conexión a Internet para obtener las tasas de cambio desde la API.
 Instalación
 1. Clonar el repositorio
 Primero, clona el repositorio en tu máquina local:
+- git clone https://github.com/tu_usuario/conversor-de-monedas.git
+- cd conversor-de-monedas
 
-git clone https://github.com/tu_usuario/conversor-de-monedas.git
-cd conversor-de-monedas
 2. Instalar dependencias (si usas Maven)
-Si estás utilizando Maven para gestionar dependencias, asegúrate de tenerlo instalado en tu máquina. Si no lo tienes, puedes descargarlo desde aquí.
+- Si estás utilizando Maven para gestionar dependencias, asegúrate de tenerlo instalado en tu máquina. Si no lo tienes, puedes descargarlo desde aquí.
 
 Asegúrate de que tu archivo pom.xml está correctamente configurado para incluir las dependencias necesarias. Si usas Maven, ejecuta:
+-mvn clean install
 
-mvn clean install
 3. Compilar y ejecutar
 Si estás usando Maven:
-
-mvn exec:java -Dexec.mainClass="ui.Main"
+- mvn exec:java -Dexec.mainClass="ui.Main"
+  
 Si no usas Maven, asegúrate de tener la librería gson-2.8.9.jar en tu carpeta lib, y compílalo usando javac y java:
+- javac -cp lib/gson-2.8.9.jar src/**/*.java
+- java -cp "lib/gson-2.8.9.jar:src" ui.Main
 
-javac -cp lib/gson-2.8.9.jar src/**/*.java
-java -cp "lib/gson-2.8.9.jar:src" ui.Main
 Uso
 Al ejecutar el programa, se mostrará un menú interactivo en la terminal:
 
