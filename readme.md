@@ -51,23 +51,16 @@ Opciones del menú
 Para cada opción, el programa te pedirá ingresar la cantidad de dinero que deseas convertir, y te devolverá el resultado con la tasa de cambio actualizada.
 
 API utilizada
-Este proyecto utiliza la API de ExchangeRate-API para obtener las tasas de cambio en tiempo real. Necesitarás una clave de API para que funcione.
+- Este proyecto utiliza la API de ExchangeRate-API para obtener las tasas de cambio en tiempo real. Necesitarás una clave de API para que funcione.
 
 Cómo obtener una clave de API
-Ve a ExchangeRate-API y regístrate.
+- Ve a ExchangeRate-API y regístrate.
 
 Obtén tu clave de API (la encontrarás en tu panel de usuario).
 
-Inserta tu clave de API en la clase Conversion.java en el siguiente fragmento de código:
+Inserta tu clave de API en la clase ExchangeRateService.java en el siguiente fragmento de código:
 
 private final String apiKey = "TU_API_KEY"; // Reemplaza con tu clave de API válida.
-Contribuciones
-Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor sigue estos pasos:
 
-Haz un fork del repositorio.
-Crea una nueva rama (git checkout -b feature-nueva).
-Realiza tus cambios y haz commit (git commit -am 'Agrega nueva funcionalidad').
-Sube tus cambios a tu repositorio (git push origin feature-nueva).
-Crea un pull request.
 Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
