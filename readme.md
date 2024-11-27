@@ -23,7 +23,7 @@ Primero, clona el repositorio en tu máquina local:
 - Si estás utilizando Maven para gestionar dependencias, asegúrate de tenerlo instalado en tu máquina. Si no lo tienes, puedes descargarlo desde aquí.
 
 Asegúrate de que tu archivo pom.xml está correctamente configurado para incluir las dependencias necesarias. Si usas Maven, ejecuta:
--mvn clean install
+- mvn clean install
 
 3. Compilar y ejecutar
 Si estás usando Maven:
