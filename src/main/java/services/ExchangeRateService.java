@@ -2,7 +2,6 @@ package services;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -10,7 +9,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ExchangeRateService {
-    private final String apiKey = "ceffc90d5d5e300d4f088ee8"; // Cambia esto por tu clave de API válida.
+    private final String apiKey = "TU-API-KEY"; // Cambia esto por tu clave de API válida.
 
     public String Conversion(String monedaBase, String monedaObjetivo, double cantidad) {
         try {
