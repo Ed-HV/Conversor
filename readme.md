@@ -62,5 +62,4 @@ Inserta tu clave de API en la clase ExchangeRateService.java en el siguiente fra
 
 private final String apiKey = "TU_API_KEY"; // Reemplaza con tu clave de API válida.
 
-Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
