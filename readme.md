@@ -1,5 +1,5 @@
 Conversor de Monedas
-Este proyecto es un conversor de monedas que permite convertir entre varias divisas utilizando una API externa para obtener las tasas de cambio más recientes. El conversor es interactivo y fácil de usar, basado en la terminal.
+- Este proyecto es un conversor de monedas que permite convertir entre varias divisas utilizando una API externa para obtener las tasas de cambio más recientes. El conversor es interactivo y fácil de usar, basado en la terminal.
 
 Características
 Convierte entre diversas monedas como MXN, USD, EUR, y más.
